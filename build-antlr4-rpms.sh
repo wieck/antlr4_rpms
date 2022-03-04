@@ -16,8 +16,8 @@ BABELFISH_EXT_REPO="./babelfishpg_extensions"
 
 # Cleanup from previous builds
 rm -rf RPMS
-rm -rf "${TMPDIR}"
-mkdir -p "${TMPDIR}"
+#rm -rf "${TMPDIR}"
+#mkdir -p "${TMPDIR}"
 
 # Download Antlr4 components on demand
 ANTLR4_JAR="antlr-${ANTLR4_VERSION}-complete.jar"
